@@ -1,12 +1,14 @@
-<div id="nav">
+<div class="menu">
+<hr/>
   <nav>
     <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">For Students</a></li>
-      <li><a href="">For Sponsors</a></li>
-      <li><a href="">Members</a></li>
-      <li><a heref="">Contact</a><li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="about.php">About</a></li>
+      <li><a href="forstudents.php">For Students</a></li>
+      <li><a href="forsponsors.php">For Sponsors</a></li>
+      <li><a href="members.php">Members</a></li>
+      <li><a href="contact.php">Contact</a><li>
     </ul>
   </nav>
+<hr/>
 </div>
