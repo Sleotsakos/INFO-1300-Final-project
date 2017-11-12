@@ -25,3 +25,40 @@
 .menu li a:hover {
   font-size: 30px;
 }
+
+/* Style for contact form referenced from: https://www.w3schools.com/howto/howto_css_contact_form.asp */
+/*rewrote and adapted*/
+input[type=text],input[type=email],input[list],select, textarea {
+    display: block;
+    width: 80%;
+    padding: 12px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.container {
+    width: 30%;
+    border-radius: 5px;
+    background-color: silver;
+    padding: 15px;
+    position: absolute;;
+}

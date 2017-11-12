@@ -3,9 +3,14 @@
   <?php include("includes/header.php"); ?>
   <body id = "Home">
     <h1> Home </h1>
-
     <?php include("includes/navigation.php"); ?>
-    <cite id = "cover_cite">Cover Photo Taken by me and Logo designed by ZheWei Wu</cite>
+    <h1>RoboMaster HKUST</h1>
+    <video  controls>
+      <source src="media/promo_video.mp4" type="video/mp4">
+      Video of robomaster
+    </video>
+    <img src ="images/poster.jpg" alt = "paster image">
 
+    <?php include("includes/footer.php"); ?>
   </body>
 </html>
