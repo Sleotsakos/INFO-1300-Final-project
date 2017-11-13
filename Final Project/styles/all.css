@@ -109,8 +109,7 @@ p {
   height: auto;
   grid-column: 2;
   grid-row: 2;
-  border: 3px;
-  border-color: silver;
+  border: solid 3px silver;
 }
 
 #poster {
@@ -138,6 +137,7 @@ p {
   height: auto;
   grid-row: 2 / 7;
   grid-column: 2;
+  border: solid 3px silver;
 }
 
 #howplayed{
@@ -150,6 +150,7 @@ p {
   height: auto;
   grid-row: 8 / 13;
   grid-column: 2;
+  border: solid 3px silver;
 }
 
 #whatwedo{
@@ -266,7 +267,7 @@ p {
 
 .container{
   float: none;
-  position: static;
+  position: relative;
   left: 33.8%;
   margin-top: 10%;
   width: 30%;
