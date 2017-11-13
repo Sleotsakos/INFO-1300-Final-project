@@ -13,5 +13,8 @@
     <?php include("includes/navigation.php"); ?>
     <!-- Beginning of page content -->
   <div class="memberscontainer">
+    <h1 class="contenttitle"> Our 2018 Team:</h1>
+    <img src="images/2018_team.jpg" alt="teampic" id="teampic">
+    <h1 class="contenttitle" id="ourmembers"> Members: </h1>
   </body>
 </html>
