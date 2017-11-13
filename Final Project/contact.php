@@ -12,7 +12,6 @@
     </header>
     <?php include("includes/navigation.php"); ?>
     <!-- Beginning of page content -->
-    <div class="contactcontainer">
     <div class = "container">
       <form action="message-submitted.php" target="_blank" method="post">
         <label>Name:</label>
@@ -43,8 +42,7 @@
 
         <input type="submit" value="Submit">
       </form>
-    <!-- </div> -->
-  </div>
+     </div> 
 
   </body>
 </html>
