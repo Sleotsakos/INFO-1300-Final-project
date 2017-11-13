@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
   <?php include("includes/header.php"); ?>
-  <body id = "Home">
-    <h1> For Sponsors </h1>
+  <body id = "forsponsors">
+  <!-- Header -->
+    <header class="header">
+      <div class="csscontainer1">
+            <img src="images/teamlogo.png" alt="teamlogo" id="teamlogo">
+            <h1 class="title"> For Sponsors </h1>
+            <img src="images/logo.png" alt="logo" id="logo">
+        </div>
+    </header>
     <?php include("includes/navigation.php"); ?>
+    <!-- Beginning of page content -->
+  <div class="forsponsorscontainer">
 
     <!-- image refrenced from: http://www.dji.com/ -->
     <img src="images/DJI_logo.png" alt="DJI_logo">
