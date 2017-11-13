@@ -16,7 +16,7 @@
     <h1 class="contenttitle">RoboMaster HKUST</h1>
     <video  id="homevideo" controls>
       <source src="media/promo_video.mp4" type="video/mp4">
-      Video of robomaster
+      Video of Robomaster
     </video>
     <img src ="images/poster.jpg" alt = "poster image" id="poster">
 
