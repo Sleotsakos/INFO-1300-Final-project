@@ -12,15 +12,13 @@
     </header>
     <?php include("includes/navigation.php"); ?>
     <!-- Beginning of page content -->
-  <div class="homecontainer">
-    <h1 class="contenttitle">RoboMaster HKUST</h1>
-    <video  id="homevideo" controls>
-      <source src="media/promo_video.mp4" type="video/mp4">
-      Video of Robomaster
-    </video>
-    <img src ="images/poster.jpg" alt = "poster image" id="poster">
-
-    <?php include("includes/footer.php"); ?>
+    <div class="homecontainer">
+      <h1 class="contenttitle">RoboMaster HKUST</h1>
+      <video  id="homevideo" controls>
+        <source src="media/promo_video.mp4" type="video/mp4">
+      </video>
+      <img src ="images/poster.jpg" alt = "poster image" id="poster">
+    </div>
   </body>
-  </div> <!-- End of homecontainer -->
+   <!-- End of homecontainer -->
 </html>
