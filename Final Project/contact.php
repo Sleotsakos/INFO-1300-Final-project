@@ -13,7 +13,7 @@
     <?php include("includes/navigation.php"); ?>
     <!-- Beginning of page content -->
     <div class = "container">
-      <form action="message-submitted.php" target="_blank" method="post">
+      <form action="message-submitted.php" method="post">
         <label>Name:</label>
         <input type="text" name = "name" placeholder="(required)" required>
 
@@ -42,7 +42,7 @@
 
         <input type="submit" value="Submit">
       </form>
-     </div> 
+     </div>
 
   </body>
 </html>
