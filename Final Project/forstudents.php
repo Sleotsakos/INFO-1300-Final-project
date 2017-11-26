@@ -13,6 +13,6 @@
     <?php include("includes/navigation.php"); ?>
     <!-- Beginning of page content -->
   <div class="forstudentscontainer">
-
+  </div>
   </body>
 </html>

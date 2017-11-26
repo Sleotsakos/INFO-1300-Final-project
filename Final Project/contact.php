@@ -65,10 +65,10 @@ if(isset($submit)){
   <!-- Header -->
     <header class="header">
       <div class="csscontainer1">
-            <img src="images/teamlogo.png" alt="teamlogo" id="teamlogo">
-            <h1 class="title"> Contact Us </h1>
-            <img src="images/logo.png" alt="logo" id="logo">
-        </div>
+        <img src="images/teamlogo.png" alt="teamlogo" id="teamlogo">
+        <h1 class="title"> Contact Us </h1>
+        <img src="images/logo.png" alt="logo" id="logo">
+      </div>
     </header>
     <?php include("includes/navigation.php"); ?>
     <!-- Beginning of page content -->
@@ -103,6 +103,5 @@ if(isset($submit)){
         <input type="submit" value="Submit">
       </form>
      </div>
-
   </body>
 </html>
