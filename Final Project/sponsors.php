@@ -5,13 +5,13 @@
     <header class="header">
       <div class="csscontainer1">
         <img src="images/teamlogo.png" alt="teamlogo" id="teamlogo">
-        <h1 class="title"> Sponsors </h1>
+        <h1 class="title">Sponsors</h1>
         <img src="images/logo.png" alt="logo" id="logo">
       </div>
     </header>
     <?php include("includes/navigation.php"); ?>
     <div class="sponsorscontainer">
-      <h1 class="contenttitle"> Our Sponsors: </h1>
+      <h1 class="contenttitle">Our Sponsors</h1>
       <!-- image refrenced from: http://www.dji.com/ -->
       <img src="images/DJI_logo.png" alt="DJI_logo" id="djilogo">
       <p id="djidescription">
