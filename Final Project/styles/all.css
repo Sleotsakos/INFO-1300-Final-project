@@ -246,6 +246,26 @@ p {
   text-align: right;
 }
 
+.schedulecontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1, 700px);
+  grid-row-gap: 0px;
+}
+
+#sched1 {
+  width: 100%;
+  height: auto;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+#sched2 {
+  width: 100%;
+  height: auto;
+  grid-row: 1;
+  grid-column: 2;
+}
 /*On Members Page*/
 
 .memberscontainer1 {
