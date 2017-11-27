@@ -73,12 +73,20 @@ if(isset($submit)){
     <?php include("includes/navigation.php"); ?>
     <!-- Beginning of page content -->
     <div class = "container">
+      <h3>
+        Contact Information:
+      </h3>
+      <p>
+        Email: robomasterhkust@gmail.com <br/>
+        Address: 7B, Shaw House, Clear Water Bay Road, Sai Kung, Kowloon, Hong Kong <br/>
+         地址： 香港九龍西貢 清水灣道220號地段 邵氏大樓7B
+      </p>
       <form action="message-submitted.php" method="post">
         <label>Name:</label>
         <input type="text" name = "name" placeholder="(required)" required>
 
         <label>Email:</label>
-        <input type="email" name="email"required placeholder="(required)" required>
+        <input type="email" name="email" placeholder="(required)" required>
 
         <label>Company Name:</label>
         <input type="text" name = "company" placeholder="your organization (if applicable)">
@@ -87,7 +95,7 @@ if(isset($submit)){
         <input type="text" name = "phone" placeholder="ex) +1-123-456-7890">
 
         <label>Message Subject:</label>
-        <input list="subject_lst" name = "subject" placeholder="(required)"required>
+        <input list="subject_lst" name = "subject" placeholder="(required)" required>
           <datalist id="subject_lst">
             <option>Sponsor and Advertisement</option>
             <option>Join as event holder</option>

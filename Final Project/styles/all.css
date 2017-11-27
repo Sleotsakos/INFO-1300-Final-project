@@ -361,6 +361,9 @@ text-align: center;
   padding: 15px;
 }
 
+.container p {
+  color: black;
+}
 /* Style for contact form referenced from: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /*rewrote and adapted*/
 input[type=text],input[type=email], input[type=number], input[list],select, textarea {
