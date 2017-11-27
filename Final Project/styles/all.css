@@ -139,10 +139,13 @@ a{
 .aboutcontainer {
   display: grid;
   grid-template-columns: 1fr 3.332fr 1fr;
-  grid-template-rows: repeat(30, 100px);
+  grid-template-rows: repeat(19, 100px);
   grid-row-gap: 0px;
 }
 
+.AboutText {
+  text-align: center;
+}
 
 .howplayed{
   grid-row: 1;
@@ -173,6 +176,7 @@ a{
 #animation_link{
   grid-row: 15;
   grid-column: 2;
+  text-align: center;
 }
 
 
@@ -184,6 +188,7 @@ a{
 #dodescription{
   grid-row: 17;
   grid-column: 2;
+  text-align: center;
 }
 
 
