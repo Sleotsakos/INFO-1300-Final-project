@@ -5,12 +5,12 @@ body {
 
 p {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 a{
   color: rgb(30, 114, 182);
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .title {
@@ -137,7 +137,6 @@ a{
 	  src:url(../fonts/SA.ttf);
 }
 .aboutcontainer {
-  font-family: SA;
   display: grid;
   grid-template-columns: 1fr 3.332fr 1fr;
   grid-template-rows: repeat(30, 100px);
