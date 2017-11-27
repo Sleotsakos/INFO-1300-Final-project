@@ -5,7 +5,12 @@ body {
 
 p {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
+}
+
+a{
+  color: rgb(30, 114, 182);
+  font-size: 24px;
 }
 
 .title {
@@ -124,46 +129,61 @@ p {
 }
 
 /*On About Page*/
+@font-face {
+    /*font referenced from: https://www.1001freefonts.com/new-fonts-4.php*/
+    font-family: 'SA';
+	  font-weight: normal;
+	  font-style:normal;
+	  src:url(../fonts/SA.ttf);
+}
 .aboutcontainer {
+  font-family: SA;
   display: grid;
   grid-template-columns: 1fr 3.332fr 1fr;
   grid-template-rows: repeat(30, 100px);
   grid-row-gap: 0px;
 }
 
-#theanime{
+
+.howplayed{
   grid-row: 1;
-  grid-column: 2;
-}
-
-#animetrailer{
-  width: 100%;
-  height: auto;
-  grid-row: 2 / 7;
-  grid-column: 2;
-  border: solid 3px silver;
-}
-
-#howplayed{
-  grid-row: 7;
   grid-column: 2;
 }
 
 #rulesvideo{
   width: 100%;
   height: auto;
-  grid-row: 8 / 13;
+  grid-row: 3 / 6;
   grid-column: 2;
   border: solid 3px silver;
 }
 
+#theanime{
+  grid-row: 8/9;
+  grid-column: 2;
+}
+
+#animetrailer{
+  width: 100%;
+  height: auto;
+  grid-row: 10/15;
+  grid-column: 2;
+  border: solid 3px silver;
+}
+
+#animation_link{
+  grid-row: 15;
+  grid-column: 2;
+}
+
+
 #whatwedo{
-  grid-row: 13;
+  grid-row: 16;
   grid-column: 2;
 }
 
 #dodescription{
-  grid-row: 14;
+  grid-row: 17;
   grid-column: 2;
 }
 
@@ -172,7 +192,7 @@ p {
 
 #slideshow1 {
   width: 100%;
-  grid-row: 15 / 19;
+  grid-row: 19 / 22;
   grid-column: 2;
 }
 
@@ -189,6 +209,28 @@ p {
 #button_container1 {
   padding: 0px;
   grid-row: 19;
+  grid-column: 2;
+}
+
+#slideshow2 {
+  width: 100%;
+  grid-row: 23 / 26;
+  grid-column: 2;
+}
+
+#image_container2 {
+  background: black;
+  padding: 12px;
+  text-align: center;
+}
+
+#current_img1 {
+  height: 380px;
+}
+
+#button_container2 {
+  padding: 0px;
+  grid-row: 26;
   grid-column: 2;
 }
 
