@@ -33,7 +33,7 @@
       <img src="images/Zhou.png" alt=Zhou id="zhoupic">
       <div id="zhoudesc">
         <h2 class="membertitle">Sheng Zhou</h2>
-        <p>Sheng "Thomas" Zhou is a hardworking member of the HKUST RoboMaster Team. As a computer science student, he is also skilled at mechanical design and hardware circuit implement. He has previous experience in Freescale Smart Car competition and has an excellent academic background. He served the 2017 HKUST RoboMaster team as a project manager.
+        <p>Sheng “Thomas” Zhou is a hardworking member of the HKUST RoboMaster Team. As a computer science student, he is also skilled at mechanical design and hardware circuit implement. He has previous experience in Freescale Smart Car competition and has an excellent academic background. He served the 2017 HKUST RoboMaster team as a project manager.
         </p>
       </div>
     </div>
