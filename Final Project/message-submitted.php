@@ -19,7 +19,7 @@ $email = $_POST["email"];
     <article id="submission">
     <h1>Message Submitted</h1>
       <p id="msline1">Thank you,  <?php echo($name); ?>. </p>
-      <p id="msline2">Your message, "<?php echo($subject); ?>" has been received and we will
+      <p id="msline2">Your message, "<?php echo($subject); ?>," has been received and we will
         respond to <?php echo($email); ?> as soon as possible! </p>
     </article>
   </body>
