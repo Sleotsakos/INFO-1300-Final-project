@@ -10,22 +10,20 @@
       </div>
     </header>
     <?php include("includes/navigation.php"); ?>
-    <div class="sponsorscontainer">
+    <div class="sponsorscontainer1">
       <h1 class="contenttitle">Our Sponsors</h1>
-      <!-- image refrenced from: http://www.dji.com/ -->
+    </div>
+    <div class="sponsorscontainer2">
+      <!--image referenced from: http://www.dji.com/-->
       <img src="images/DJI_logo.png" alt="DJI_logo" id="djilogo">
       <p id="djidescription">
-        One of biggest leading company of drones, cutting-edge technology.<br>
-        Working for people to capture every moment in their lives!<br>
-        Featuring the high quality camera drones: the Inspire Series.<br>
+      DJI is a drone and aerial photography company, headquartered in Shenzhen in China, that has set a new standard in consumer drone technology. DJI products allow photos and video to be captured from angles never before possible, not only by professionals but also by average consumers. DJI’s sponsorship of the HKUST Robomaster team allows them to take advantage of these high-quality products in the development of their robots for competition.
       </p>
-      <!-- image referenced from:http://www.eyezon.com/?p=431 -->
+      <!--image referenced from:http://www.eyezon.com/?p=431-->
       <img src="images/ADI_logo.jpg" alt="ADI_logo" id="adilogo">
-      <!-- description referenced from:http://www.analog.com/en/about-adi.html -->
+      <!-- description referenced from:http://www.analog.com/en/about-adi.html-->
       <p id="adidescription">
-        ADI enable their customers to interpret the world around us <br>
-        by intelligently bridging the physical and digital with <br>
-        unmatched technologies that sense, measure and connect. <br>
+      ADI is a distributor of security and low voltage products with a headquarters in Norwood, Massachusetts. ADI is the leading wholesale distributor of these products in North America, but it is not only limited to that continent; ADI has a total of over 200 locations worldwide. ADI’s sponsorship allows the HKUST Robomaster team to use their products, which are essential for the development of robots.
       </p>
       <!-- <h2>Message to sponsor</h2>
       <p>
