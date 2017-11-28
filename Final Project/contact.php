@@ -72,7 +72,7 @@ if(isset($submit)){
     </header>
     <?php include("includes/navigation.php"); ?>
     <!-- Beginning of page content -->
-    <div class = "container">
+    <div class = "contactInfoContainer">
       <h3>
         Contact Information:
       </h3>
@@ -81,6 +81,8 @@ if(isset($submit)){
         Address: 7B, Shaw House, Clear Water Bay Road, Sai Kung, Kowloon, Hong Kong <br/>
          地址： 香港九龍西貢 清水灣道220號地段 邵氏大樓7B
       </p>
+    </div>
+    <div class = "contactContainer">
       <form action="message-submitted.php" method="post">
         <label>Name:</label>
         <input type="text" name = "name" placeholder="(required)" required>
