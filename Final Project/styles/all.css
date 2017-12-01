@@ -270,6 +270,99 @@ a{
   grid-row-gap: 0px;
 }
 
+.sponsorscontainer3 {
+  display: grid;
+  grid-template-columns: 1fr 800px 1fr;
+  grid-template-rows: 100px;
+}
+
+.sponsorscontainer4 {
+  display: grid;
+  grid-template-columns: 1fr 1.666fr 1.666fr 1fr;
+  grid-template-rows: repeat(5, 300px);
+  grid-row-gap: 0px;
+}
+
+#xilinxlogo {
+  width: 60%;
+  height: auto;
+  grid-row: 1;
+  grid-column: 2;
+  margin: auto;
+}
+
+#xilinxdescription {
+  width: 100%;
+  height: auto;
+  grid-row: 1;
+  grid-column: 3;
+  margin: auto;
+}
+
+#nvidialogo {
+  width: 60%;
+  height: auto;
+  grid-row: 2;
+  grid-column: 2;
+  margin: auto;
+}
+
+#nvidiadescription {
+  width: 100%;
+  height: auto;
+  grid-row: 2;
+  grid-column: 3;
+  margin: auto;
+}
+
+#WDlogo {
+  width: 60%;
+  height: auto;
+  grid-row: 3;
+  grid-column: 2;
+  margin: auto;
+}
+
+#WDdescription {
+  width: 100%;
+  height: auto;
+  grid-row: 3;
+  grid-column: 3;
+  margin: auto;
+}
+
+#SanDisklogo {
+  width: 60%;
+  height: auto;
+  grid-row: 4;
+  grid-column: 2;
+  margin: auto;
+}
+
+#SanDiskdescription {
+  width: 100%;
+  height: auto;
+  grid-row: 4;
+  grid-column: 3;
+  margin: auto;
+}
+
+#oppologo {
+  width: 60%;
+  height: auto;
+  grid-row: 5;
+  grid-column: 2;
+  margin: auto;
+}
+
+#oppodescription {
+  width: 100%;
+  height: auto;
+  grid-row: 5;
+  grid-column: 3;
+  margin: auto;
+}
+
 #djilogo {
   width: 60%;
   height: auto;
