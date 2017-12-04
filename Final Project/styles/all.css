@@ -1,6 +1,14 @@
+@font-face {
+    /*font referenced from: https://www.1001freefonts.com/new-fonts-4.php*/
+    font-family: 'SA';
+	  font-weight: normal;
+	  font-style:normal;
+	  src:url(../fonts/SA.ttf);
+}
 /*On all Pages*/
 body {
   background-color: black;
+  font-family: SA;
 }
 
 p {
@@ -129,13 +137,6 @@ a{
 }
 
 /*On About Page*/
-@font-face {
-    /*font referenced from: https://www.1001freefonts.com/new-fonts-4.php*/
-    font-family: 'SA';
-	  font-weight: normal;
-	  font-style:normal;
-	  src:url(../fonts/SA.ttf);
-}
 .aboutcontainer {
   display: grid;
   grid-template-columns: 1fr 3.332fr 1fr;
@@ -395,9 +396,37 @@ a{
 
 .schedulecontainer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(1, 700px);
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-rows: 1fr 10fr ;
   grid-row-gap: 0px;
+}
+
+.contenttitle_sche {
+  color: white;
+  text-decoration: underline;
+  font-size: 40px;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+#para1{
+  grid-row: 2;
+  grid-column: 2;
+}
+
+#para1 table {
+   font-size: 20px;
+   border: 1px solid white;
+   border-collapse: collapse;
+}
+
+#para1 td, th{
+  text-align: center;
+  padding: 20px 20px;
+  color: white;
+  border: 1px solid white;
+  border-collapse: collapse;
 }
 
 #sched1 {
@@ -412,6 +441,10 @@ a{
   height: auto;
   grid-row: 1;
   grid-column: 2;
+}
+
+.third_col{
+  text-align: left;
 }
 /*On Members Page*/
 
