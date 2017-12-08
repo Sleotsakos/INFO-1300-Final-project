@@ -1,7 +1,8 @@
 <?php
-$name = $_POST["name"];
-$subject = $_POST["subject"];
-$email = $_POST["email"];
+session_start();
+$name = $_SESSION["name"];
+$subject = $_SESSION["subject"];
+$email = $_SESSION["email"];
 ?>
 
 <!DOCTYPE html>
