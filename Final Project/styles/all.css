@@ -568,7 +568,7 @@ text-align: center;
 
 /* Style for contact form referenced from: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 /*rewrote and adapted*/
-input[type=text],input[type=email], input[type=number], input[list],select, textarea {
+input[type=text],input[type=email], input[type=number], input[type=tel], input[list],select, textarea {
     display: block;
     width: 80%;
     padding: 12px;
