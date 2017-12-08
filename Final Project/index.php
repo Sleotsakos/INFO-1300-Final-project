@@ -13,7 +13,6 @@
     <?php include("includes/navigation.php"); ?>
     <!-- Beginning of page content -->
     <div class="homecontainer">
-      <h1 class="contenttitle">RoboMaster HKUST</h1>
       <video  id="homevideo" controls>
         <source src="media/promo_video.mp4" type="video/mp4">
       </video>
