@@ -1,6 +1,14 @@
+@font-face {
+    /*font referenced from: https://www.1001freefonts.com/new-fonts-4.php*/
+    font-family: 'SA';
+	  font-weight: normal;
+	  font-style:normal;
+	  src:url(../fonts/SA.ttf);
+}
 /*On all Pages*/
 body {
   background-color: dimgray;
+  font-family: SA;
 }
 
 p {
@@ -30,6 +38,15 @@ a{
   font-size: 50px;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
+}
+
+#AboutComp {
+  color: white;
+  text-decoration: underline;
+  grid-row: 9;
+  grid-column: 2;
+  font-size: 50px;
+  text-align: center;
 }
 
 /*Make menu bar horizontal*/
@@ -126,17 +143,10 @@ a{
 }
 
 /*On About Page*/
-@font-face {
-    /*font referenced from: https://www.1001freefonts.com/new-fonts-4.php*/
-    font-family: 'SA';
-	  font-weight: normal;
-	  font-style:normal;
-	  src:url(../fonts/SA.ttf);
-}
 .aboutcontainer {
   display: grid;
   grid-template-columns: 1fr 3.332fr 1fr;
-  grid-template-rows: repeat(19, 100px);
+  grid-template-rows: repeat(22, 100px);
   grid-row-gap: 0px;
 }
 
@@ -144,48 +154,56 @@ a{
   text-align: center;
 }
 
+#CompText {
+  text-align: center;
+}
+
 .howplayed{
-  grid-row: 1;
+  grid-row: 8;
   grid-column: 2;
+  margin: auto;
+
 }
 
 #rulesvideo{
   width: 100%;
   height: auto;
-  grid-row: 3 / 6;
+  grid-row: 10 / 13;
   grid-column: 2;
   border: solid 3px silver;
 }
 
 #theanime{
-  grid-row: 8/9;
+  grid-row: 15/16;
   grid-column: 2;
 }
 
 #animetrailer{
   width: 100%;
   height: auto;
-  grid-row: 10/15;
+  grid-row: 17/20;
   grid-column: 2;
   border: solid 3px silver;
 }
 
 #animation_link{
-  grid-row: 15;
+  grid-row: 22;
   grid-column: 2;
   text-align: center;
+  color: rgb(105, 193, 221);
 }
 
 
 #whatwedo{
-  grid-row: 16;
+  grid-row: 1;
   grid-column: 2;
 }
 
 #dodescription{
-  grid-row: 17;
+  grid-row: 2;
   grid-column: 2;
   text-align: center;
+  margin: auto;
 }
 
 
@@ -193,7 +211,7 @@ a{
 
 #slideshow1 {
   width: 100%;
-  grid-row: 19 / 22;
+  grid-row: 3 / 6;
   grid-column: 2;
 }
 
@@ -209,7 +227,7 @@ a{
 
 #button_container1 {
   padding: 0px;
-  grid-row: 19;
+  grid-row: 3;
   grid-column: 2;
 }
 
@@ -392,23 +410,55 @@ a{
 
 .schedulecontainer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(1, 700px);
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-rows: 1fr 10fr ;
   grid-row-gap: 0px;
+}
+
+.contenttitle_sche {
+  color: white;
+  text-decoration: underline;
+  font-size: 40px;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+#para1{
+  grid-row: 2;
+  grid-column: 2;
+}
+
+#para1 table {
+   font-size: 20px;
+   border: 1px solid white;
+   border-collapse: collapse;
+}
+
+#para1 td, th{
+  text-align: center;
+  padding: 20px 20px;
+  color: white;
+  border: 1px solid white;
+  border-collapse: collapse;
 }
 
 #sched1 {
   width: 100%;
   height: auto;
   grid-row: 1;
-  grid-column: 1;
+  grid-column: 2;
 }
 
 #sched2 {
   width: 100%;
   height: auto;
-  grid-row: 1;
+  grid-row: 2;
   grid-column: 2;
+}
+
+.third_col{
+  text-align: left;
 }
 /*On Members Page*/
 
@@ -440,7 +490,6 @@ text-align: center;
 
 #zhangdesc {
   width: 80%;
-  text-align: justify;
   grid-row: 1;
   grid-column: 3;
   font-size: 150%;
@@ -456,7 +505,6 @@ text-align: center;
 
 #ngaidesc {
   width: 80%;
-  text-align: justify;
   grid-row: 2;
   grid-column: 2;
   font-size: 150%;
@@ -473,7 +521,6 @@ text-align: center;
 
 #zhoudesc{
   width: 80%;
-  text-align: justify;
   grid-row: 3;
   grid-column: 3;
   font-size: 150%;
@@ -558,6 +605,11 @@ input[type=submit]:hover {
 }
 
 /*On Message-submitted page*/
+
+#messagesub {
+color: white;
+text-align: center;
+}
 
 #msline1{
   text-align: center;
