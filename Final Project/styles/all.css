@@ -34,12 +34,12 @@ a{
 }
 
 #AboutComp {
-  color: white;
-  text-decoration: underline;
+  color: black;
   grid-row: 9;
   grid-column: 2;
   font-size: 50px;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*Make menu bar horizontal*/
@@ -191,6 +191,8 @@ a{
 #whatwedo{
   grid-row: 1;
   grid-column: 2;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
 }
 
 #dodescription{
@@ -412,11 +414,11 @@ a{
 
 .contenttitle_sche {
   color: black;
-  text-decoration: underline;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   grid-row: 1;
   grid-column: 2;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #para1{
@@ -518,6 +520,8 @@ text-align: center;
 #ourmembers{
   grid-row: 8;
   grid-column: 2;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
 }
 
 /*On Contact Page*/
