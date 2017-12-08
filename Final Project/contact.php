@@ -33,7 +33,7 @@ if(isset($submit)){
   $msgValid = false;
 }}
 
-$userPhone = $_REQUEST ["phone"];
+$phone = $_REQUEST ["phone"];
 if (isset($submit)){
   if ( !empty ($phone)){
     $phoneValid = true;
@@ -67,7 +67,7 @@ else {
 <!DOCTYPE html>
 <html>
   <?php include("includes/header.php"); ?>
-  <body id = "contact">
+  <body id= "contact">
     <script src="scripts/navBar6.js" type="text/javascript"></script>
   <!-- Header -->
     <header class="header">
@@ -117,7 +117,7 @@ else {
           <textarea name="msg" placeholder="Tell us about..." required>
           </textarea>
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="submit">
       </form>
      </div>
   </body>
