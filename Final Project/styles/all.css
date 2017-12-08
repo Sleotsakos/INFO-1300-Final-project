@@ -405,11 +405,6 @@ a{
 
 .schedulecontainer {
   display: grid;
-<<<<<<< HEAD
-=======
-  grid-template-columns: 1fr 3.332fr 1fr;
-  grid-template-rows: repeat(2, 700px);
->>>>>>> bbffcb8f31724a08f33974584a4cfe0007580d8b
   grid-template-columns: 1fr 10fr 1fr;
   grid-template-rows: 1fr 10fr ;
   grid-row-gap: 0px;
@@ -462,7 +457,7 @@ a{
   grid-row-gap: 0px;
 }
 
-.membertitle {color: lightgray;
+.membertitle {color: white;
 text-align: center;
 }
 
