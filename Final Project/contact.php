@@ -67,9 +67,6 @@ else {
 <!DOCTYPE html>
 <html>
   <?php include("includes/header.php"); ?>
-  <body id= "contact">
-    <script src="scripts/navBar6.js" type="text/javascript"></script>
-  <!-- Header -->
     <header class="header">
     <script src="scripts/navBar6.js" type="text/javascript"></script>
     <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
