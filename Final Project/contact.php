@@ -67,16 +67,16 @@ else {
 <!DOCTYPE html>
 <html>
   <?php include("includes/header.php"); ?>
-  <body id="contact">
-    <script src="scripts/navBar6.js" type="text/javascript"></script>
-  <!-- Header -->
     <header class="header">
+    <script src="scripts/navBar6.js" type="text/javascript"></script>
+    <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
       <div class="csscontainer1">
         <img src="images/teamlogo.png" alt="teamlogo" id="teamlogo">
         <h1 class="title">HKUST RoboMasters</h1>
         <img src="images/logo.png" alt="logo" id="logo">
       </div>
     </header>
+    <body id="contact">
     <?php include("includes/navigation.php"); ?>
     <!-- Beginning of page content -->
     <div class = "contactInfoContainer">
@@ -90,7 +90,7 @@ else {
       </p>
     </div>
     <div class = "contactContainer">
-      <form method="post" action="message-submitted.php">
+      <form method="post" action="contact.php">
         <label>Name:</label>
         <input type="text" name = "name" placeholder="(required)" required>
 
