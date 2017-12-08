@@ -1,20 +1,17 @@
 /*On all Pages*/
 body {
-  background-color: black;
+  background-color: rgb(4, 0, 82);
 }
 
 p {
   color: white;
   font-size: 20px;
+  font-family: sans-serif;
 }
 
 a{
   color: rgb(30, 114, 182);
   font-size: 20px;
-}
-
-.title {
-  color: white;
 }
 
 .csscontainer1 {
@@ -29,6 +26,15 @@ a{
   color: white;
   text-decoration: underline;
   grid-row: 1;
+  grid-column: 2;
+  font-size: 50px;
+  text-align: center;
+}
+
+#AboutComp {
+  color: white;
+  text-decoration: underline;
+  grid-row: 9;
   grid-column: 2;
   font-size: 50px;
   text-align: center;
@@ -68,8 +74,7 @@ a{
 }
 
 .menu li a:hover {
-  font-size: 30px;
-  color: rgb(60, 97, 255);
+  color: rgb(81, 144, 252);
 }
 
 .title {
@@ -77,7 +82,7 @@ a{
   text-align: center;
   grid-column: 2;
   grid-row: 1;
-  color: rgb(60, 97, 255);
+  color: rgb(81, 144, 252);
   font-family: monospace;
 }
 
@@ -139,7 +144,7 @@ a{
 .aboutcontainer {
   display: grid;
   grid-template-columns: 1fr 3.332fr 1fr;
-  grid-template-rows: repeat(19, 100px);
+  grid-template-rows: repeat(22, 100px);
   grid-row-gap: 0px;
 }
 
@@ -147,48 +152,56 @@ a{
   text-align: center;
 }
 
+#CompText {
+  text-align: center;
+}
+
 .howplayed{
-  grid-row: 1;
+  grid-row: 8;
   grid-column: 2;
+  margin: auto;
+
 }
 
 #rulesvideo{
   width: 100%;
   height: auto;
-  grid-row: 3 / 6;
+  grid-row: 10 / 13;
   grid-column: 2;
   border: solid 3px silver;
 }
 
 #theanime{
-  grid-row: 8/9;
+  grid-row: 15/16;
   grid-column: 2;
 }
 
 #animetrailer{
   width: 100%;
   height: auto;
-  grid-row: 10/15;
+  grid-row: 17/20;
   grid-column: 2;
   border: solid 3px silver;
 }
 
 #animation_link{
-  grid-row: 15;
+  grid-row: 22;
   grid-column: 2;
   text-align: center;
+  color: rgb(105, 193, 221);
 }
 
 
 #whatwedo{
-  grid-row: 16;
+  grid-row: 1;
   grid-column: 2;
 }
 
 #dodescription{
-  grid-row: 17;
+  grid-row: 2;
   grid-column: 2;
   text-align: center;
+  margin: auto;
 }
 
 
@@ -196,7 +209,7 @@ a{
 
 #slideshow1 {
   width: 100%;
-  grid-row: 19 / 22;
+  grid-row: 3 / 6;
   grid-column: 2;
 }
 
@@ -212,7 +225,7 @@ a{
 
 #button_container1 {
   padding: 0px;
-  grid-row: 19;
+  grid-row: 3;
   grid-column: 2;
 }
 
@@ -395,8 +408,8 @@ a{
 
 .schedulecontainer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(1, 700px);
+  grid-template-columns: 1fr 3.332fr 1fr;
+  grid-template-rows: repeat(2, 700px);
   grid-row-gap: 0px;
 }
 
@@ -404,13 +417,13 @@ a{
   width: 100%;
   height: auto;
   grid-row: 1;
-  grid-column: 1;
+  grid-column: 2;
 }
 
 #sched2 {
   width: 100%;
   height: auto;
-  grid-row: 1;
+  grid-row: 2;
   grid-column: 2;
 }
 /*On Members Page*/
@@ -443,7 +456,6 @@ text-align: center;
 
 #zhangdesc {
   width: 80%;
-  text-align: justify;
   grid-row: 1;
   grid-column: 3;
   font-size: 150%;
@@ -459,7 +471,6 @@ text-align: center;
 
 #ngaidesc {
   width: 80%;
-  text-align: justify;
   grid-row: 2;
   grid-column: 2;
   font-size: 150%;
@@ -476,7 +487,6 @@ text-align: center;
 
 #zhoudesc{
   width: 80%;
-  text-align: justify;
   grid-row: 3;
   grid-column: 3;
   font-size: 150%;
@@ -561,6 +571,11 @@ input[type=submit]:hover {
 }
 
 /*On Message-submitted page*/
+
+#messagesub {
+color: white;
+text-align: center;
+}
 
 #msline1{
   text-align: center;
