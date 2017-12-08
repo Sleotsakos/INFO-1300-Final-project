@@ -1,4 +1,4 @@
-// Taken from Lab9 example
+// Adapted from Lab9 example
 
 "use strict";
 window.onload = function() {

@@ -10,7 +10,7 @@ p {
   font-family: sans-serif;
 }
 
-a{
+a {
   color: lightgray;
   font-size: 20px;
   font-family: sans-serif;
@@ -50,6 +50,7 @@ a{
   background-color: black;
   z-index: 1;
 }
+
 .menu ul {
   list-style-type: none;
   margin: 0;
@@ -57,8 +58,6 @@ a{
   overflow: hidden;
   text-align: center;
   font-size: 25px;
-  /*grid-row: 2;
-  grid-column: 1 / span 3;*/
 }
 
 .menu li {
@@ -88,7 +87,7 @@ a{
   font-family: "Times New Roman", Times, serif;
 }
 
-#teamlogo{
+#teamlogo {
   display: block;
   width: 250px;
   height: 200px;
@@ -152,14 +151,14 @@ a{
   text-align: center;
 }
 
-.howplayed{
+.howplayed {
   grid-row: 8;
   grid-column: 2;
   margin: auto;
 
 }
 
-#rulesvideo{
+#rulesvideo {
   width: 100%;
   height: auto;
   grid-row: 10 / 13;
@@ -167,12 +166,12 @@ a{
   border: solid 3px silver;
 }
 
-#theanime{
+#theanime {
   grid-row: 15/16;
   grid-column: 2;
 }
 
-#animetrailer{
+#animetrailer {
   width: 100%;
   height: auto;
   grid-row: 17/20;
@@ -180,7 +179,7 @@ a{
   border: solid 3px silver;
 }
 
-#animation_link{
+#animation_link {
   grid-row: 22;
   grid-column: 2;
   text-align: center;
@@ -188,14 +187,14 @@ a{
 }
 
 
-#whatwedo{
+#whatwedo {
   grid-row: 1;
   grid-column: 2;
   font-family: "Times New Roman", Times, serif;
   font-size: 50px;
 }
 
-#dodescription{
+#dodescription {
   grid-row: 2;
   grid-column: 2;
   text-align: center;
@@ -421,7 +420,7 @@ a{
   font-family: "Times New Roman", Times, serif;
 }
 
-#para1{
+#para1 {
   grid-row: 2;
   grid-column: 2;
 }
@@ -432,7 +431,7 @@ a{
    border-collapse: collapse;
 }
 
-#para1 td, th{
+#para1 td, th {
   text-align: center;
   padding: 20px 20px;
   color: black;
@@ -440,7 +439,7 @@ a{
   border-collapse: collapse;
 }
 
-.third_col{
+.third_col {
   text-align: left;
 }
 /*On Members Page*/
@@ -494,7 +493,7 @@ text-align: center;
   margin: auto;
 }
 
-#zhoupic{
+#zhoupic {
   width: 80%;
   height: auto;
   grid-row: 3;
@@ -502,7 +501,7 @@ text-align: center;
   margin: auto;
 }
 
-#zhoudesc{
+#zhoudesc {
   width: 80%;
   grid-row: 3;
   grid-column: 3;
@@ -510,14 +509,14 @@ text-align: center;
   margin: auto;
 }
 
-#teampic{
+#teampic {
   width: 100%;
   height: auto;
   grid-row: 2;
   grid-column: 2;
 }
 
-#ourmembers{
+#ourmembers {
   grid-row: 8;
   grid-column: 2;
   font-family: "Times New Roman", Times, serif;
@@ -526,7 +525,7 @@ text-align: center;
 
 /*On Contact Page*/
 
-.contactContainer{
+.contactContainer {
  float: left;
  position: relative;
  margin-top: 5%;
@@ -596,10 +595,10 @@ color: white;
 text-align: center;
 }
 
-#msline1{
+#msline1 {
   text-align: center;
 }
 
-#msline2{
+#msline2 {
   text-align: center;
 }

@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html>
   <?php include("includes/header.php"); ?>
-  <body id = "About">
-  <script src="scripts/navBar2.js" type="text/javascript"></script>
-  <!-- Header -->
+  <body id="About">
     <header class="header">
       <div class="csscontainer1">
             <img src="images/teamlogo.png" alt="teamlogo" id="teamlogo">
             <h1 class="title">HKUST RoboMasters</h1>
             <img src="images/logo.png" alt="logo" id="logo">
+            <script src="scripts/navBar2.js" type="text/javascript"></script>
         </div>
     </header>
     <?php include("includes/navigation.php"); ?>
-
-    <!-- Beginning of page content -->
     <div class="aboutcontainer">
       <div class="howplayed">
         <h1 id="AboutComp">About the Competition</h1>
@@ -47,30 +44,12 @@
         <div id="image_container1">
           <!--images taken by RoboMasters HKUST-->
           <img id="current_img1" src="images/slideshow1.11.jpg">
-        </div> <!-- end of image_container div-->
+        </div>
         <div id="button_container1">
             <button class="slide_button" id="left1" >Previous</button>
             <button class="slide_button" id="right1" >Next</button>
-        </div> <!-- end of button_container div -->
-      </div> <!--End Slideshow div -->
-
-        </div> <!-- end of button_container div -->
-      </div> <!--End Slideshow div -->
-
-  <!--<h1 class="contenttitle" id="competitions"> Competitions: </h1>
-    <p id="compdescription"> "(Description of competitions, requirements, locations,
-      preliminaries,...etc.)" </p>
-  <div id="slideshow">
-  <div id="image_container">
-    <! images taken by RoboMasters HKUST-->
-    <!--<img id="current_img" src="images/tower1.png">
-  </div> <! end of image_container div -->
-
-  <!--<div id="button_container">
-    <button class="slide_button" id="left" >Previous</button>
-    <button class="slide_button" id="right" >Next</button>
-  </div> <! end of button_container div -->
-<!--</div> <!End Slideshow div -->
-    </div> <!-- End of aboutcontainer -->
+        </div>
+      </div>
+    </div>
   </body>
 </html>

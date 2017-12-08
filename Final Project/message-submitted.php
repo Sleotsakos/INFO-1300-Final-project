@@ -8,7 +8,7 @@ $email = $_SESSION["email"];
 <!DOCTYPE html>
 <html>
   <?php include("includes/header.php"); ?>
-  <body id= "members">
+  <body id="members">
     <header class="header">
       <div class="csscontainer1">
         <img src="images/teamlogo.png" alt="teamlogo" id="teamlogo">

@@ -2,15 +2,16 @@
 <html>
   <?php include("includes/header.php"); ?>
   <body id = "forsponsors">
-    <script src="scripts/navBar3.js" type="text/javascript"></script>
     <header class="header">
       <div class="csscontainer1">
         <img src="images/teamlogo.png" alt="teamlogo" id="teamlogo">
         <h1 class="title">HKUST RoboMasters</h1>
         <img src="images/logo.png" alt="logo" id="logo">
+        <script src="scripts/navBar3.js" type="text/javascript"></script>
       </div>
     </header>
     <?php include("includes/navigation.php"); ?>
+    <!--Schedule dates and descriptions obtained from the Robomaster team-->
     <div class="schedulecontainer">
       <h1 class="contenttitle_sche">Event Schedule 2017-2018</h1>
       <div id="para1">

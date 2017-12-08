@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
   <?php include("includes/header.php"); ?>
-  <body id = "members">
-    <script src="scripts/navBar5.js" type="text/javascript"></script>
-  <!-- Header -->
+  <body id="members">
     <header class="header">
       <div class="csscontainer1">
         <img src="images/teamlogo.png" alt="teamlogo" id="teamlogo">
         <h1 class="title">HKUST RoboMasters</h1>
         <img src="images/logo.png" alt="logo" id="logo">
+        <script src="scripts/navBar5.js" type="text/javascript"></script>
       </div>
     </header>
     <?php include("includes/navigation.php"); ?>
-    <!-- Beginning of page content -->
     <div class="memberscontainer1">
       <h1 class="contenttitle">Our 2018 Team</h1>
       <img src="images/2018_team.jpg" alt="teampic" id="teampic">

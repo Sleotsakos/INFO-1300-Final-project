@@ -2,12 +2,12 @@
 <html>
   <?php include("includes/header.php"); ?>
   <body id = "forsponsors">
-    <script src="scripts/navBar4.js" type="text/javascript"></script>
     <header class="header">
       <div class="csscontainer1">
         <img src="images/teamlogo.png" alt="teamlogo" id="teamlogo">
         <h1 class="title">HKUST RoboMasters</h1>
         <img src="images/logo.png" alt="logo" id="logo">
+        <script src="scripts/navBar4.js" type="text/javascript"></script>
       </div>
     </header>
     <?php include("includes/navigation.php"); ?>
@@ -26,11 +26,6 @@
       <p id="adidescription">
       ADI is a distributor of security and low voltage products with a headquarters in Norwood, Massachusetts. ADI is the leading wholesale distributor of these products in North America, but it is not only limited to that continent; ADI has a total of over 200 locations worldwide. ADI’s sponsorship allows the HKUST Robomaster team to use their products, which are essential for the development of robots.
       </p>
-      <!-- <h2>Message to sponsor</h2>
-      <p>
-        Possible Message to Sponsors(pending for discussion with our customer
-        for details of what they hope to convey and express themselves)
-      </p> -->
     </div>
     <div class="sponsorscontainer3">
       <h1 class="contenttitle">Competition Sponsors </h1>
