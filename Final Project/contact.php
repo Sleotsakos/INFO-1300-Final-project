@@ -130,7 +130,7 @@ if (isset($submit)){
           </datalist>
 
         <label>Message:</label>
-          <textarea name = "msg" placeholder = "Tell us about..." required>
+          <textarea name="msg" placeholder="Tell us about..." required>
           </textarea>
 
         <input type="submit" value="Submit">
