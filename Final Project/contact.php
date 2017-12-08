@@ -1,5 +1,5 @@
 <?php
-$formValid= $nameValid && $emailValid && $subjectValid && $msgValid;
+$formValid= $nameValid && $emailValid && $subjectValid && $msgValid && $phoneValid;
 $submit = $_REQUEST ["submit"];
 if(isset($submit)){
   $name = $_REQUEST ["name"];
@@ -12,7 +12,7 @@ if(isset($submit)){
     header ("Location: message-submitted.php");
     return;
   }
-  
+
 } else {
   $nameValid = true;
 }
@@ -64,8 +64,22 @@ if(isset($submit)){
 } else {
   $msgValid = true;
 }
-
+if (isset($submit)){
+  $userPhone = $_REQUEST ["phone"];
+  if ( !empty ($phone)){
+    $phoneValid = true;
+  } else {
+    $phoneValid= false;
+  }
+  if ($formValid) {
+    header ("Location: form-page.php");
+    return;
+  }
+} else {
+  $phoneValid = true;
+}
 ?>
+
 <!DOCTYPE html>
 <html>
   <?php include("includes/header.php"); ?>
@@ -103,7 +117,7 @@ if(isset($submit)){
         <input type="text" name = "company" placeholder="your organization (if applicable)">
 
         <label>Phone: </label>
-        <input type="text" name = "phone" placeholder="ex) +1-123-456-7890">
+        <input type="tel" name = "phone" placeholder="ex) 123-456-7890" pattern="^\d{3}-\d{3}-\d{4}$" required>
 
         <label>Message Subject:</label>
         <input list="subject_lst" name = "subject" placeholder="(required)" required>
