@@ -12,9 +12,11 @@ if(isset($submit)){
     header ("Location: message-submitted.php");
     return;
   }
+  
 } else {
   $nameValid = true;
 }
+
 if(isset($submit)){
   $email = $_REQUEST ["email"];
   if(!empty($email)){
@@ -26,9 +28,11 @@ if(isset($submit)){
     header ("Location: message-submitted.php");
     return;
   }
+
 } else {
   $emailValid = true;
 }
+
 if(isset($submit)){
   $subject = $_REQUEST ["subject"];
   if(!empty($subject)){
@@ -40,9 +44,11 @@ if(isset($submit)){
     header ("Location: message-submitted.php");
     return;
   }
+
 } else {
   $subjectValid = true;
 }
+
 if(isset($submit)){
   $msg = $_REQUEST ["msg"];
   if(!empty($msg)){
@@ -54,9 +60,11 @@ if(isset($submit)){
     header ("Location: message-submitted.php");
     return;
   }
+
 } else {
   $msgValid = true;
 }
+
 ?>
 <!DOCTYPE html>
 <html>
