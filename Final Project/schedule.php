@@ -13,8 +13,8 @@
     <?php include("includes/navigation.php"); ?>
     <div class="schedulecontainer">
       <h1 class="contenttitle_sche">Event Schedule 2017-2018</h1>
-      <div id = "para1">
-        <table id = "sche_table_sat">
+      <div id="para1">
+        <table id="sche_table_sat">
           <tr>
             <th>Date and Place</th>
             <th>Event</th>
