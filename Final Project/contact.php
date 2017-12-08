@@ -42,13 +42,14 @@ if (isset($submit)){
 }}
 
 $formValid= $nameValid && $emailValid && $subjectValid && $msgValid && $phoneValid;
-if ($formValid) {
+if ($formValid){
   session_start();
   $_SESSION['name'] = $name;
   $_SESSION['email'] = $email;
   $_SESSION['subject'] = $subject;
   $_SESSION['msg'] = $msg;
   $_SESSION['phone'] = $phone;
+
   header ("Location: message-submitted.php");
   return;
 }
@@ -61,7 +62,6 @@ else {
   $msgValid=true;
   $phoneValid=true;
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -90,7 +90,7 @@ else {
       </p>
     </div>
     <div class = "contactContainer">
-      <form method="post" action="contact.php">
+      <form method="post" action="message-submitted.php">
         <label>Name:</label>
         <input type="text" name = "name" placeholder="(required)" required>
 
@@ -117,7 +117,7 @@ else {
           <textarea name="msg" placeholder="Tell us about..." required>
           </textarea>
 
-        <input type="submit" value="submit">
+        <input type="submit" name="submit" value="Submit">
       </form>
      </div>
   </body>
