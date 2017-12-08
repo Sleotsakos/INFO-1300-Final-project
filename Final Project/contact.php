@@ -1,83 +1,67 @@
 <?php
-$formValid= $nameValid && $emailValid && $subjectValid && $msgValid && $phoneValid;
 $submit = $_REQUEST ["submit"];
+
+$name = $_REQUEST ["name"];
 if(isset($submit)){
-  $name = $_REQUEST ["name"];
   if(!empty($name)){
   $nameValid = true;
   } else {
   $nameValid = false;
-  }
-  if ($formValid) {
-    header ("Location: message-submitted.php");
-    return;
-  }
+}}
 
-} else {
-  $nameValid = true;
-}
-
+$email = $_REQUEST ["email"];
 if(isset($submit)){
-  $email = $_REQUEST ["email"];
   if(!empty($email)){
   $emailValid = true;
   } else {
   $emailValid = false;
-  }
-  if ($formValid) {
-    header ("Location: message-submitted.php");
-    return;
-  }
+}}
 
-} else {
-  $emailValid = true;
-}
-
+$subject = $_REQUEST ["subject"];
 if(isset($submit)){
-  $subject = $_REQUEST ["subject"];
   if(!empty($subject)){
   $subjectValid = true;
   } else {
   $subjectValid = false;
-  }
-  if ($formValid) {
-    header ("Location: message-submitted.php");
-    return;
-  }
+}}
 
-} else {
-  $subjectValid = true;
-}
-
+$msg = $_REQUEST ["msg"];
 if(isset($submit)){
-  $msg = $_REQUEST ["msg"];
   if(!empty($msg)){
   $msgValid = true;
   } else {
   $msgValid = false;
-  }
-  if ($formValid) {
-    header ("Location: message-submitted.php");
-    return;
-  }
+}}
 
-} else {
-  $msgValid = true;
-}
+$userPhone = $_REQUEST ["phone"];
 if (isset($submit)){
-  $userPhone = $_REQUEST ["phone"];
   if ( !empty ($phone)){
     $phoneValid = true;
   } else {
     $phoneValid= false;
-  }
-  if ($formValid) {
-    header ("Location: message-submitted.php");
-    return;
-  }
-} else {
-  $phoneValid = true;
+}}
+
+$formValid= $nameValid && $emailValid && $subjectValid && $msgValid && $phoneValid;
+if ($formValid) {
+  session_start();
+  $_SESSION['name'] = $name;
+  $_SESSION['email'] = $email;
+  $_SESSION['subject'] = $subject;
+  $_SESSION['msg'] = $msg;
+  $_SESSION['phone'] = $phone;
+  header ("Location: message-submitted.php");
+  return;
 }
+
+else {
+
+  $nameValid=true;
+  $emailValid=true;
+  $subjectValid=true;
+  $msgValid=true;
+  $phoneValid=true;
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -106,7 +90,7 @@ if (isset($submit)){
       </p>
     </div>
     <div class = "contactContainer">
-      <form action="contact.php" method="post">
+      <form method="post" action="contact.php">
         <label>Name:</label>
         <input type="text" name = "name" placeholder="(required)" required>
 
