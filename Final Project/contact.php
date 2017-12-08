@@ -65,7 +65,7 @@ if (isset($submit)){
     $phoneValid= false;
   }
   if ($formValid) {
-    header ("Location: form-page.php");
+    header ("Location: message-submitted.php");
     return;
   }
 } else {
@@ -98,7 +98,7 @@ if (isset($submit)){
       </p>
     </div>
     <div class = "contactContainer">
-      <form action="contact.php" method="post" novalidate>
+      <form action="contact.php" method="post">
         <label>Name:</label>
         <input type="text" name = "name" placeholder="(required)" required>
 
@@ -110,7 +110,7 @@ if (isset($submit)){
 
         <label>Phone: </label>
         <input type="tel" name = "phone" placeholder="ex) 123-456-7890" pattern="^\d{3}-\d{3}-\d{4}$" required>
-        
+
         <label>Message Subject:</label>
         <input list="subject_lst" name = "subject" placeholder="(required)" required>
           <datalist id="subject_lst">
