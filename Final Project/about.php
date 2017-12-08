@@ -2,11 +2,12 @@
 <html>
   <?php include("includes/header.php"); ?>
   <body id = "About">
+  <script src="scripts/navBar2.js" type="text/javascript"></script>
   <!-- Header -->
     <header class="header">
       <div class="csscontainer1">
             <img src="images/teamlogo.png" alt="teamlogo" id="teamlogo">
-            <h1 class="title">About Us</h1>
+            <h1 class="title">HKUST RoboMasters</h1>
             <img src="images/logo.png" alt="logo" id="logo">
         </div>
     </header>

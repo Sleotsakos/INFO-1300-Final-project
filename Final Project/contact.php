@@ -62,11 +62,12 @@ if(isset($submit)){
 <html>
   <?php include("includes/header.php"); ?>
   <body id = "contact">
+    <script src="scripts/navBar6.js" type="text/javascript"></script>
   <!-- Header -->
     <header class="header">
       <div class="csscontainer1">
         <img src="images/teamlogo.png" alt="teamlogo" id="teamlogo">
-        <h1 class="title">Contact Us</h1>
+        <h1 class="title">HKUST RoboMasters</h1>
         <img src="images/logo.png" alt="logo" id="logo">
       </div>
     </header>
@@ -83,7 +84,7 @@ if(isset($submit)){
       </p>
     </div>
     <div class = "contactContainer">
-      <form action="message-submitted.php" method="post">
+      <form action="contact.php" method="post" novalidate>
         <label>Name:</label>
         <input type="text" name = "name" placeholder="(required)" required>
 
@@ -107,8 +108,8 @@ if(isset($submit)){
           </datalist>
 
         <label>Message:</label>
-        <textarea name = "msg" placeholder="Tell Us About..." required>
-        </textarea>
+          <textarea name = "msg" placeholder = "Tell us about..." required>
+          </textarea>
 
         <input type="submit" value="Submit">
       </form>

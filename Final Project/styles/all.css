@@ -1,20 +1,18 @@
 /*On all Pages*/
 body {
-  background-color: black;
+  background-color: dimgray;
 }
 
 p {
-  color: white;
+  color: black;
   font-size: 20px;
+  font-family: sans-serif;
 }
 
 a{
-  color: rgb(30, 114, 182);
+  color: lightgray;
   font-size: 20px;
-}
-
-.title {
-  color: white;
+  font-family: sans-serif;
 }
 
 .csscontainer1 {
@@ -26,12 +24,12 @@ a{
 
 
 .contenttitle {
-  color: white;
-  text-decoration: underline;
+  color: black;
   grid-row: 1;
   grid-column: 2;
   font-size: 50px;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*Make menu bar horizontal*/
@@ -59,7 +57,7 @@ a{
 
 .menu li a {
   display: block;
-  color: white;
+  color: lightgray;
   text-align: center;
   padding: 10px;
   margin: 0;
@@ -68,17 +66,16 @@ a{
 }
 
 .menu li a:hover {
-  font-size: 30px;
-  color: rgb(60, 97, 255);
+  color: rgb(43, 190, 206);
 }
 
 .title {
-  font-size: 600%;
+  font-size: 400%;
   text-align: center;
   grid-column: 2;
   grid-row: 1;
-  color: rgb(60, 97, 255);
-  font-family: monospace;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #teamlogo{
@@ -429,7 +426,7 @@ a{
   grid-row-gap: 0px;
 }
 
-.membertitle {color: white;
+.membertitle {color: lightgray;
 text-align: center;
 }
 
